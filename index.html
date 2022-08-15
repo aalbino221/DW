@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faria Lima</title>
+    <link rel="icon" href="imgs/favicon2.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <div class="header" align="center">
+        <p class="logo">💰 FARIA LIMA</p>
+        <div class="header-menu">
+            <a id="home" class="home" href="index.html" tabindex="1">Inicio</a>
+            <a href="#" tabindex="2">Criptomoedas</a>
+            <a id="about" href="about.html" tabindex="3">Sobre</a>
+            <a class="contact" href="#" tabindex="4">Contato</a>
+            <div class="search">
+                <input type="search" placeholder="Buscar..." width="100px" tabindex="5">
+                <button tabindex="6"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="img">
+        <div class="money">💰</div>
+        <div class="money2">💰</div>
+        <img id="doge" src="imgs/dogecoin2.png" width="100%">
+    </div>
+
+            <!-- TradingView Widget BEGIN -->
+    <div class="chart-container">
+        <h1 style="text-align:center"> <i class="fa-solid fa-chart-line"></i> Gráfico</h1>
+        <div id="chart" class="tradingview-widget-container">
+            <div id="tradingview_3120c"></div>
+            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/BTCUSDT/?exchange=BINANCE" rel="noopener" target="_blank"><span class="blue-text">BTCUSDT Chart</span></a> by TradingView</div>
+            <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+            <script type="text/javascript">
+            new TradingView.widget(
+            {
+            "autosize": true,
+            "symbol": "BINANCE:BTCUSDT",
+            "interval": "D",
+            "timezone": "Etc/UTC",
+            "theme": "dark",
+            "style": "1",
+            "locale": "en",
+            "toolbar_bg": "#f1f3f6",
+            "enable_publishing": false,
+            "allow_symbol_change": true,
+            "container_id": "tradingview_3120c"
+            }
+            );
+            </script>
+            </div>
+    </div>
+    <!-- TradingView Widget END -->
+
+    <div class="cards" align="center" width=100%>
+        <div class="middle">
+            <p align="center"> <i class="fa-brands fa-bitcoin"></i> Criptomoedas</p>
+        </div>
+        <table width=83%  cellpadding="0px">
+            <tr>
+                <td width="30%" bgcolor="#F8F8F8" style="border: solid rgb(197, 195, 195) 2px">
+                    <img src="imgs/btc1.jpg" width="100%">
+                    <h2 style="padding-left:3%"><u>Bitcoin</u></h2>
+                    <p style="padding-left:3%">A criptomoeda mais estabelecido do mercado, valorização de 330% nos ultimos 2 anos.</p> <hr>
+                    <ul>
+                        <li>Simbolo - BTC</li>
+                        <li>Preço - 40,530.00 USD</li>
+                        <li>MarketCap - $769,304,353,627</li>
+                        <li>MarketShare - 38.95%</li>
+                    </ul> <hr>
+                    <a href="#" style="padding-left: 3%">Informações</a> <br>
+                </td>
+                <td width="5%"></td>
+                <td width="30%"  bgcolor="#F8F8F8" style="border: solid rgb(197, 195, 195) 2px">
+                    <img src="imgs/eth1.png" width="100%">
+                    <h2 style="padding-left: 3%"><u>Ethereum</u></h2>
+                    <p style="padding-left:3%">A que mais está crescendo no mercado, valorização de 530% nos ultimos 2 anos.</p><hr>
+                    <ul>
+                        <li>Simbolo - ETH</li>
+                        <li>Preço - 3,046.73 USD</li>
+                        <li>MarketCap - $366,319,126,113 </li>
+                        <li>MarketShare - 18.56%</li>
+                    </ul> <hr>
+                    <a href="#" style="padding-left:3%">Informações</a> <br>
+                </td>
+                <td width="5%"></td>
+                <td width="30%" bgcolor="#F8F8F8" style="border: solid rgb(197, 195, 195) 2px">
+                    <img src="imgs/back1.jpg" width="100%">
+                    <h2 style="padding-left:3%"><u>Dogecoin</u></h2>
+                    <p style="padding-left:3%">Dogecoin a moeda preferida do Elon Musk, valorização de 935% nos ultimos 2 anos.</p> <hr>
+                    <ul>
+                        <li>Simbolo - DOGE</li>
+                        <li>Preço - 0.1425 USD</li>
+                        <li>MarketCap - $18,866,283,442 </li>
+                        <li>MarketShare - 0.96%</li>
+                    </ul> <hr>
+                    <a href="#" style="padding-left:3%">Informações</a> <br>
+                </td>
+                <td width="5%"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="cards stocks" align="center" width=100%>
+        <div class="middle">
+            <p align="center"> <i class="fa-solid fa-arrow-trend-down"></i> Ações</p>
+        </div>
+        <table width=83%  cellpadding="0px">
+            <tr>
+                <td width="30%" bgcolor="#F8F8F8" style="border: solid rgb(197, 195, 195) 2px">
+                    <img src="imgs/oibr3.png" width="100%">
+                    <h2 style="padding-left:3%"><u>Oi</u></h2>
+                    <p style="padding-left:3%">Ação preferida dos investidores brasileiros, valorização de -70% nos ultimos 2 anos.</p> <hr>
+                    <ul>
+                        <li>Simbolo - OIBR3</li>
+                        <li>Preço - 0.55 R$</li>
+                        <li>MarketCap - $769,304,353,627</li>
+                    </ul> <hr>
+                    <a href="#" style="padding-left: 3%">Informações</a> <br>
+                </td>
+                <td width="5%"></td>
+                <td width="30%"  bgcolor="#F8F8F8" style="border: solid rgb(197, 195, 195) 2px">
+                    <img src="imgs/tsla.png" width="100%">
+                    <h2 style="padding-left: 3%"><u>Tesla</u></h2>
+                    <p style="padding-left:3%">Ação preferida do Elon Musk, valorização de 230% nos ultimos 2 anos.</p><hr>
+                    <ul>
+                        <li>Simbolo - TSLA34</li>
+                        <li>Preço - 108.26 R$</li>
+                        <li>MarketCap - $366,319,126,113 </li>
+                    </ul> <hr>
+                    <a href="#" style="padding-left:3%">Informações</a> <br>
+                </td>
+                <td width="5%"></td>
+                <td width="30%" bgcolor="#F8F8F8" style="border: solid rgb(197, 195, 195) 2px">
+                    <img src="imgs/gm.png" width="100%">
+                    <h2 style="padding-left:3%"><u>GameStop</u></h2>
+                    <p style="padding-left:3%">Ação preferida do Wall Street Bets, valorização de 400% nos ultimos 2 anos.</p> <hr>
+                    <ul>
+                        <li>Simbolo - GME</li>
+                        <li>Preço - 129.08 USD</li>
+                        <li>MarketCap - $18,866,283,442 </li>
+                    </ul> <hr>
+                    <a href="#" style="padding-left:3%">Informações</a> <br>
+                </td>
+                <td width="5%"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="depoimentos" id="dep">
+        <h1 style="text-align:center;"> <i class="fa-solid fa-user-group"></i> Depoimentos</h1>
+        <div class="dep-imgs">
+            <img src="dep/d1d97fc.png" alt="">
+            <img src="dep/e5b3154.png" alt="">
+            <img src="imgs/zn440znhgwz61.webp" alt="">
+        </div>
+    </div>
+
+    <div class="promo" id="promo">
+        <table width="70%" bgcolor="dfdfdf" align="center" cellpadding="25%">
+            <tr height="50%">
+                <td width="30%" rowspan="2">
+                    <img src="imgs/ferrari.jpg" width="100%">
+                </td>
+                <td width="70%" align="center" rowspawn="1" height="20%">
+                    <h1>Hoje ganho aproxidamente 38.000 R$ por dia utilizando as técnicas que aprendi com esse método, comprei uma ferrari, três casas e ando sempre estiloso. E você? Quer mudar de vida? </h1>
+                    <button type="button" class="btn1" onclick= "location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley'">
+                        <h1> 👉 DESCUBRA AQUI!! 👈</h1></button>
+                        <h1><i>Promoção por tempo limitado!!</i></h1>
+                </td> 
+            </tr>
+        </table>
+    </div>
+
+    <div class="contato">
+        <form>
+            <h1 style="text-align: center;">Cadastre-se</h1>
+
+            <div class="form name">
+                <label for="nome">Nome</label>
+                <input id="nome" type="text" placeholder="Seu Nome">
+            </div>
+
+            <div class="form surname">
+                <label for="sobrenome">Sobrenome</label>
+                <input id="sobrenome" type="text" placeholder="Seu Sobrenome">
+            </div>
+
+            <div class="form email">
+                <label for="email">Email</label>
+                <input id="email" type="text" placeholder="Seu Email">
+            </div>
+
+            <div class="form tel">
+                <label for="tele">Telefone</label>
+                <input id="tele" type="text" placeholder="Seu Telefone">
+            </div>
+
+            <div class="form check">
+                <input id="check" type="checkbox">
+                <label for="check"> Desejo receber novidades por email</label>
+            </div>
+            
+            <button class="send"><b>Enviar</b></button>
+        </form>
+    </div>
+
+    <hr width="70%">
+
+    <div class="footer">
+        <div class="footer-description">
+            <h1>Sobre</h1>
+            <p>Empresa de idéias e indicações financeiras baseada no Acre. Subdesenvolvimento, agora também no mercado de criptomoedas e ações. <br>
+            Obs: Não nos responsabilizamos por perdas financeiras.</p>
+        </div>
+
+        <div class="footer-menu">
+            <h1>Menu</h1>
+            <a href="#home">Inicio</a>
+            <a href="#">Criptomoedas</a>
+            <a href="#dep">Depoimento</a>
+            <a href="about.html">Sobre</a>
+        </div>
+
+        <div class="footer-links">
+            <h1>Social</h1>
+            <a href="https://www.orkut.br.com/" target="_blank" id="orkut"> <i class="fa-solid fa-o"></i> Orkut</a>
+            <a href="https://www.reddit.com/" target="_blank"  id="reddit"> <i class="fa-brands fa-reddit-alien"></i> Reddit</a>
+            <a href="https://br.linkedin.com/?trk=guest_homepage-basic_nav-header-logo" target="_blank" id="linkedin"> <i class="fa-brands fa-linkedin-in"></i> Linkedin</a>
+            <a href="https://twitter.com/?lang=pt-br" target="_blank"> <i class="fa-brands fa-twitter" id="twitter"></i> Twitter</a>
+        </div>
+    </div>
+
+    <div class="quote">
+        <blockquote align="center">Não acho que quem ganhar ou quem perder, nem quem ganhar nem perder, vai ganhar ou perder. Vai todo mundo perder.</blockquote>
+        <p align="center"> - Dilma, 2015</p>
+    </div>
+
+</body>
+</html>
